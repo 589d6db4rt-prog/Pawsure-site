@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pawrsure — Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --moss: #3D5C46;
+    --moss-dark: #28392E;
+    --cream: #F3EEDE;
+    --paper: #FAF7F1;
+    --amber: #DE9B35;
+    --coral: #DD6E58;
+    --ink: #2A2620;
+    --ink-soft: #6B6255;
+    --line: #E4DDCB;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Manrope', sans-serif;
+    line-height: 1.7;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 100px;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .mark {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: var(--moss);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .wordmark {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 22px;
+  }
+  .wordmark .a { color: var(--ink); }
+  .wordmark .b { color: var(--amber); }
+  .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    font-weight: 700;
+    margin: 40px 0 6px;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 34px;
+    margin: 0 0 10px;
+    color: var(--moss-dark);
+  }
+  .lede {
+    color: var(--ink-soft);
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .contact-card {
+    background: var(--moss-dark);
+    color: var(--cream);
+    border-radius: 16px;
+    padding: 22px 24px;
+    margin: 28px 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .contact-card .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.7;
+    margin-bottom: 4px;
+  }
+  .contact-card .email {
+    font-family: 'Fraunces', serif;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  .contact-card a {
+    color: var(--amber);
+    text-decoration: none;
+  }
+  .contact-card .btn {
+    background: var(--amber);
+    color: var(--moss-dark);
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--moss-dark);
+    margin: 40px 0 4px;
+  }
+  .section-note {
+    color: var(--ink-soft);
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+  details {
+    border-bottom: 1px solid var(--line);
+    padding: 16px 0;
+  }
+  summary {
+    font-weight: 700;
+    font-size: 15.5px;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before {
+    content: "🐾";
+    font-size: 12px;
+    opacity: 0.6;
+  }
+  details p {
+    margin: 10px 0 0 22px;
+    font-size: 15px;
+    color: var(--ink);
+  }
+  footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--ink-soft);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark">🐾</div>
+    <div class="wordmark"><span class="a">Pawr</span><span class="b">sure</span></div>
+  </header>
+
+  <div class="eyebrow">Help</div>
+  <h1>Support</h1>
+  <div class="lede">Questions, issues, or something not working right — here's how to reach us and answers to the most common ones.</div>
+
+  <div class="contact-card">
+    <div>
+      <div class="label">Email us directly</div>
+      <div class="email"><a href="mailto:brixtimsupport@gmail.com">brixtimsupport@gmail.com</a></div>
+    </div>
+    <a class="btn" href="mailto:brixtimsupport@gmail.com">Contact Support</a>
+  </div>
+
+  <h2>Getting started</h2>
+  <div class="section-note">The basics, if you're just getting set up.</div>
+
+  <details>
+    <summary>How do I post?</summary>
+    <p>Tap the + button on the Home tab and take a photo of your pet — daily posts are camera-only, to keep things real rather than a curated photo dump.</p>
+  </details>
+
+  <details>
+    <summary>What's a Baowstreak?</summary>
+    <p>Your daily posting streak. Post once a day to keep it going — the number and ring on your Profile track how many days in a row you've kept it up, and you'll unlock new titles as it grows.</p>
+  </details>
+
+  <details>
+    <summary>Why does my feed only show a few pets?</summary>
+    <p>Pawrsure is built around your actual neighborhood, not a global feed — you'll see posts from people genuinely nearby. If your area doesn't have much activity yet, the feed automatically searches a bit further out to find enough to show you.</p>
+  </details>
+
+  <h2>Account</h2>
+  <div class="section-note">Managing your account and data.</div>
+
+  <details>
+    <summary>How do I delete my account?</summary>
+    <p>Go to Profile → Account Settings → Delete Account. This permanently removes your account and everything tied to it — it can't be undone, so make sure before confirming.</p>
+  </details>
+
+  <details>
+    <summary>I signed up with email — where's my confirmation link?</summary>
+    <p>Check your spam or promotions folder if it hasn't arrived after a few minutes. If it's genuinely missing, email us and we'll help sort it out.</p>
+  </details>
+
+  <details>
+    <summary>Can I change my username?</summary>
+    <p>Not yet from within the app — email us and we can help directly. Note that short usernames (5 characters or fewer) go through a quick manual review before they're active, to keep them from being squatted on.</p>
+  </details>
+
+  <h2>Shelters &amp; Organizers</h2>
+  <div class="section-note">For rescue accounts and event hosts.</div>
+
+  <details>
+    <summary>I registered my shelter — why can't I post a listing yet?</summary>
+    <p>Shelter accounts are reviewed by hand before they're approved, usually quickly. You'll be able to post adoptable listings as soon as that's done.</p>
+  </details>
+
+  <details>
+    <summary>Why did my first event get blocked?</summary>
+    <p>The first event from any new organizer account goes through a quick manual approval, same as shelters — after that, you can create events freely up to your plan's monthly limit.</p>
+  </details>
+
+  <h2>Report a problem</h2>
+  <div class="section-note">Found something that isn't working, or content that shouldn't be there?</div>
+  <p>Use the report option directly on a post or comment for anything that violates our guidelines, or email us for anything else — bugs, account issues, or general feedback. We read every message.</p>
+
+  <footer>Pawrsure is made by Brixtim.</footer>
+</div>
+</body>
+</html>
